@@ -13,5 +13,4 @@ await fs.writeFile("users-copy.json", data);
 // If its a named export we need to use the name of the export
 // If its an anonymous export we can use any name we want
 import meth from "./maths.js";
-console.log(meth.sum(1, 2));
 // node index.js // 3
